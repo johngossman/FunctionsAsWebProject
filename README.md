@@ -5,7 +5,7 @@ Example of a Web App project for Azure Functions
 
 Since the project is a Web App, by default F5 will launch IIS Express. With a few simple changes to the project settings, you can run the Azure Functions CLI and attach a debugger: 
 
-- Right-click **CoderCardsWebsite** and open **Properties**. 
+- Right-click **FunctionsAsWebProject** and open **Properties**. 
 - In the **Web** tab, choose **Start External Program**
 - For the program path, enter the path to `func.exe` for the Azure Functions CLI. 
 
