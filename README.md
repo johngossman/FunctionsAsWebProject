@@ -1,6 +1,10 @@
 # FunctionsAsWebProject
 Example of a Web App project for Azure Functions 
 
+## Prerequisites 
+
+Install the Azure Functions CLI, either through [Visual Studio Tools for Azure Functions](https://aka.ms/functionsvstools) or the Azure Functions CLI from npm [azure\-functions\-cli](https://www.npmjs.com/package/azure-functions-cli). 
+
 ## Local debugging in Visual Studio 
 
 Since the project is a Web App, by default F5 will launch IIS Express. With a few simple changes to the project settings, you can run the Azure Functions CLI and attach a debugger: 
